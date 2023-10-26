@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="container">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <span class="loading">
+                <h1>0%</h1>
+            </span>
+        </div>
+        </div>
+    <div id="main">
+        <div id="page">
+            <div id="nav">
+                <img src="https://w7.pngwing.com/pngs/1017/175/png-transparent-furniture-upholstery-solid-wood-chair-wood-logo-kitchen-logo-wood.png" alt="thecompanylogo">
+                <div id="nav-part2">
+                    <a href="#page">Home</a>
+                    <a href="#page2">Collections</a>
+                    <a href="#">What's New</a>
+                    <a href="#page4">Visit Our Store</a>
+                    <a href="#">Know Us</a>
+                </div>
+                <div class="nav-icons">
+                    <i class="ri-search-line"></i>
+                    <i class="ri-heart-line"></i>
+                    <i class="ri-shopping-cart-line"></i>
+                    <button> <span><i class="ri-user-3-line"></i></span>Sign Up</button>
+                    <i id="menu" class="ri-menu-3-line"></i>
+                </div>
+            </div>
+            <div id="page-part1">
+                 <img src="https://ik.imagekit.io/durian1985/Durian/durian/CategoryBanner/800x800/category_banner_20230718125949.jpg" alt="">        
+            </div>
+        </div>
+        <div id="page2">
+            <div class="page2-up">
+                <h2>New Arrival</h2>
+                <div class="page2-container">
+                    <div class="card">
+                        <div class="img-div">
+                            <img src="https://m.media-amazon.com/images/I/61aRNkwsGrL.jpg" alt="">
+                        </div>
+                       <div class="text-div">
+                        <button>MADE TO ORDER</button>
+                        <h3>Melo Duo End Table</h3>
+                        <h4>₹ 35,499 <span>35%Off</span></h4>
+                        <h6>EMI starts from ₹3540.6 </h6>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-div">
+                            <img src="https://images.thdstatic.com/productImages/e649f06d-59a7-4c3d-9289-0fef8b896569/svn/durogreen-outdoor-lounge-chairs-cab3326lg-1f_600.jpg" alt="">
+                        </div>
+                       <div class="text-div">
+                        <button>MADE TO ORDER</button>
+                        <h3>DUROGREEN Cabana Light Gray Chair</h3>
+                        <h4>₹ 11,799 <span>18%Off</span></h4>
+                        <h6>EMI starts from ₹1020.3 </h6>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-div">
+                            <img src="https://www.jfa.in/product-images/IMG_20210725_145133.JPG/431189000013876762/600x600" alt="">
+                        </div>
+                       <div class="text-div">
+                        <button>MADE TO ORDER</button>
+                        <h3>Round Dining Table with glass</h3>
+                        <h4>₹ 28,699 <span>32%Off</span></h4>
+                        <h6>EMI starts from ₹2135.7 </h6>
+                       </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-div">
+                            <img src="https://www.ulcdn.net/images/products/809250/original/Jones_Side_Table_TK_00_LP.png?1683923500" alt="">
+                        </div>
+                       <div class="text-div">
+                        <button>MADE TO ORDER</button>
+                        <h3>Side Table</h3>
+                        <h4>₹ 7,299 <span>14%Off</span></h4>
+                        <h6>EMI starts from ₹785.4 </h6>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <h1>What's New</h1>
+            <div class="page3-container">
+                <div class="new-item">
+                    <div class="item-image">
+                        <img src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_1_M?wid=690&qlt=65" alt="">
+                    </div>
+                    <h3>7 Seater Sofa</h3>
+                </div>
+                <div class="new-item">
+                    <div class="item-image">
+                        <img src="https://ii1.pepperfry.com/media/catalog/product/d/r/800x880/drusilla-solid-wood-queen-size-poster-bed-in-provincial-teak-finish--by-woodsworth-drusilla-solid-wo-oimjrm.jpg" alt="">
+                    </div>
+                    <h3>Poster Bed</h3>
+                </div>
+                <div class="new-item">
+                    <div class="item-image">
+                        <img src="https://d6qwfb5pdou4u.cloudfront.net/product-images/6620001-6630000/6626120/3ff72f0c77ac45921a4837225585964f3f57d8a88783704ec411b940c79c7e58/1500-1500-frame-0.jpg" alt="">
+                    </div>
+                    <h3>Rushton Dining Table</h3>
+                </div>
+                <div class="new-item">
+                    <div class="item-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fHww&w=1000&q=80" alt="">
+                    </div>
+                    <h3>Cushion Chair</h3>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <h1>Popular Categories</h1>
+            <div class="images">
+                <div class="img-up">
+                    <div class="img1">
+                        <h3>THE NEW HEAVEN</h3>
+                        <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="">
+                    </div>
+                    <div class="img2">
+                        <h3>CLEVER SEATING</h3>
+                        <img src="https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1580091-847&recipeName=680" alt="">
+                    </div>
+                </div>
+                <div class="img-up">
+                    <div class="img1">
+                        <h3>LUXURY LIVING</h3>
+                        <img src="https://images-cdn.ubuy.co.in/633ac8be0e1d1b7e59248e8c-dining-table-set-kitchen-dining-table.jpg" alt="">
+                    </div>
+                    <div class="img2">
+                        <h3>TIME FOR A TREAT</h3>
+                        <img src="https://plus.unsplash.com/premium_photo-1661963774705-755506680a42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div class="store">
+                <div class="store-visit">
+                    <h3>Visit Our Stores</h3>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="elem">
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-_Bangloe.png?1681723070" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Delhi___NCR.png?1681723096" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Mumbai.png?1681723129" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="elem">
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Hyderabad.png?1681723199" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Chennai.png?1681723241" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Pune.png?1681723279" alt="">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="elem">
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Kolkata.png?1681723395" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-Kochi.png?1681723465" alt="">
+                            </div>
+                            <div class="elems">
+                                <img src="https://www.ulcdn.net/media/Collection/listings/Carousel_store_awareness-EAS.png?1681723485" alt="">
+                            </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer-part1">
+                <h2>SIGN UP AND GET A CHANCE TO WIN THE GIVEAWAY OF THE WEEK.</h2>
+                <div class="subs">
+                    <input type="text" placeholder="Your Email ID">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+            <div id="footer-part2">
+                <div class="dets">
+                    <h3>The Company:</h3>
+                    <ul>
+                        <br>
+                        <li>Carrers</li>
+                        <li>About Us</li>
+                        <li>Team</li>
+                        <li>Privacy Policy</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+                <div class="dets">
+                    <h3>More Information:</h3>
+                    <ul>
+                        <br>
+                        <li>Fees and Payment</li>
+                        <li>Shipping & Delivery</li>
+                        <li>Terms & Condition</li>
+                        <li>Buy in Bulk</li>
+                        <li>Warranty and Refund</li>
+                    </ul>
+                </div>
+                <div class="dets">
+                    <h3>Explore More:</h3>
+                    <ul>
+                        <br>
+                        <li>Refer & Earn</li>
+                        <li>Gift Cards</li>
+                        <li>Furniture Offers</li>
+                        <li>Terms of Offer</li>
+                        <li>Terms of Use</li>
+                    </ul>
+                </div>
+                <div class="dets">
+                    <h3>Address</h3>
+                    <ul>
+                        <br>
+                        <li>Reliance Retail Limited,
+                            3rd Floor, Court House, <br> Goregaon West, Dhobi Talao, <br> Mumbai- 400 002, Maharashtra, India</li>
+                         <li>CIN: U01100MH1999PLC120563</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-part3">
+                <div class="footer-part3-left">
+                    <h4>Connect With Us:</h4>
+                    <div class="footer-part3-left-icons">
+                        <i class="ri-phone-line"></i><i class="ri-facebook-line"></i><i class="ri-twitter-line"></i></i><i class="ri-youtube-line"></i><i class="ri-instagram-line"></i><i class="ri-linkedin-line"></i>
+                    </div>
+                    <h6>+91-9999977777</h6>
+                </div>
+                <div class="footer-part3-right">
+                    <h4>Download App:</h4>
+                    <div class="footer-images">
+                        <img src="https://www.ulcdn.net/media/badges/app_store/app_store_badge.svg" alt="">
+                        <img src="https://www.ulcdn.net/media/badges/play_store/google-play-badge.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
